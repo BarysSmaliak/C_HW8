@@ -1,5 +1,7 @@
 ﻿// Задайте две матрицы. Напишите программу, которая будет находить произведение двух матриц.
 
+// Сделал для матриц 2х2
+
 int [,] CreateArray (int length1, int length2) 
 {
     int [,] array = new int [length1, length2];
@@ -38,9 +40,6 @@ int[,] ProductOfTwoMatrices (int[,] array1, int[,]array2)
     }
     return productOfMatrices;
 }
-
-
-
 
 int [,] matrix1 = CreateArray(2, 2);
 int [,] matrix2 = CreateArray(2, 2); 
